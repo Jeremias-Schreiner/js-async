@@ -1,0 +1,69 @@
+:root{
+    --subtitle: 18px;
+    --text: 14px
+}
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos de Celular*/
+
+body{
+    background-color: #4c00fd1c;    
+}
+
+.procucts-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+
+.product-container{
+    margin-bottom: 20px;
+    border-radius: 26px;
+    background-color: rgba(113, 47, 236, 0.589);
+
+}
+
+.product-img{
+    width: 80vw;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+.product-info{
+ margin-left: 5px;
+ margin-bottom: 35px;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    font-size: var(--subtitle);
+    color: aliceblue;
+}
+.category{
+    margin: 0;
+    padding: 0; 
+    color: #babbeeef;
+    font-size: var(--text);
+}
+
+.price-container{
+    position: relative;
+}
+
+.price-container p{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 14px;
+    color: aliceblue;
+}
